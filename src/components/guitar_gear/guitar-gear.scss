@@ -1,0 +1,18 @@
+.guitar-gear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    padding: 1.25rem;
+    border: 2px solid transparent;
+    border-radius: 1.5rem;
+    
+    img {
+        object-fit: scale-down;
+    }
+    
+    &.highlight {
+        border-color: #646cff;
+    }
+}
