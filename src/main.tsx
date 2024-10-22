@@ -6,7 +6,7 @@ import RootLayout from "./routes/layouts/root-layout";
 import ErrorPage from "./routes/pages/error_page/error-page";
 import HomePage from "./routes/pages/home_page/home-page";
 import CoachPage from "./routes/pages/coach_page/coach-page";
-import StepByStepPage from "./routes/pages/step_by_step_page/step-by-step-page";
+// import StepByStepPage from "./routes/pages/step_by_step_page/step-by-step-page";
 import GearPage from "./routes/pages/gear_page/gear-page";
 
 const router = createBrowserRouter([
@@ -23,10 +23,10 @@ const router = createBrowserRouter([
         path: "/coach",
         element: <CoachPage />,
       },
-      {
-        path: "/step-by-step",
-        element: <StepByStepPage />,
-      },
+      // {
+      //   path: "/step-by-step",
+      //   element: <StepByStepPage />,
+      // },
       {
         path: "/gear",
         element: <GearPage />,

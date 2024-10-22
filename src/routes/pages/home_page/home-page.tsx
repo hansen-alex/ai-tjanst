@@ -12,7 +12,7 @@ const HomePage = () => {
           information. Read more below!
         </div>
       </section>
-      <section className="right">
+      {/* <section className="right">
         <div>
           <h2>Get started!</h2>
           If you are a total beginner we have a step by step guide going through
@@ -22,8 +22,8 @@ const HomePage = () => {
             <button type="button">Go!</button>
           </Link>
         </div>
-      </section>
-      <section className="left">
+      </section> */}
+      <section className="right">
         <div>
           <h2>Gotten stuck?</h2>
           Need help with what to do next? Ask your AI Coach for training
@@ -34,9 +34,9 @@ const HomePage = () => {
           </Link>
         </div>
       </section>
-      <section className="right">
+      <section className="left">
         <div>
-          <h2>What's this for?</h2>
+          <h2>What's it all for?</h2>
           Are you wondering what all of your new shiny gear is used for? We have
           a page going through some of the more common pieces and how/what they
           are for.
