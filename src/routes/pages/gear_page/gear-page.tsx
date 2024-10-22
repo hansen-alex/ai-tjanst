@@ -35,7 +35,7 @@ const GearPage = () => {
         </li>
         <li>
           <GuitarGear
-            item="Pick(s)"
+            item="Pick"
             description="Guitar picks come in various sizes and shapes, each offering a different feel and sound. Thicker picks generally produce a fuller tone and are more durable, while thinner picks are more flexible and provide a brighter sound. "
             imagePath="/guitar_gear/picks.jpg"
           />
@@ -70,7 +70,7 @@ const GearPage = () => {
         </li>
         <li>
           <GuitarGear
-            item="Effect Pedal(s)"
+            item="Effect Pedal"
             description="A guitar effects pedal is a device that alters the sound of an electric guitar signal by applying various audio effects, such as distortion, delay, reverb, modulation, and more. These pedals can be used to enhance the tone and texture of a guitar's sound, allowing musicians to create unique sounds and styles. Each pedal typically has its own controls to adjust the effect to the player's liking."
             imagePath="/guitar_gear/effect-pedals.jpg"
           />
